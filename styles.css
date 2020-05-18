@@ -1,0 +1,79 @@
+body {
+    background-image: url('images/drums.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+button {
+    background-color: #ee4540;
+    position: relative;
+    border: black;
+    border-width: 2px;
+    border-style: double;
+    left: 9%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 155px;
+    cursor: pointer;
+    transition: all 110ms ease;
+}
+
+button:hover {
+    background-color: black;
+    color:  #ee4540;
+    transform: scale(1.1);
+}
+
+
+h3 {
+    font-family: 'Stardos Stencil', cursive;
+    font-weight: lighter;
+    font-size: .9rem;
+}
+
+/********************* CLASS SELECTORS ************************/
+
+.title {
+    margin: auto;
+    text-align: center;
+    font-size: 5.5rem;
+    letter-spacing: 0.5rem;
+    color: #f4ff61;
+    font-family: 'Black Ops One', cursive;
+    padding-top: 55px;
+}
+
+.drum {
+    height: 93px;
+    width: 115px;
+}
+
+.drum-key {
+    font-size: 2.5rem;
+    font-family: 'Stardos Stencil', cursive;
+    color: white;
+    font-weight: bolder;
+    line-height: .05;
+}
+
+/********************* ID SELECTORS ************************/
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+#footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    font-size: smaller;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
