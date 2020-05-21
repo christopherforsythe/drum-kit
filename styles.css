@@ -12,13 +12,14 @@ button {
     border: black;
     border-width: 2px;
     border-style: double;
-    left: 9%;
+    left: 13%;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 155px;
     cursor: pointer;
     transition: all 110ms ease;
 }
+
 
 button:hover {
     background-color: black;
@@ -27,10 +28,12 @@ button:hover {
 }
 
 
+
+
 h3 {
     font-family: 'Stardos Stencil', cursive;
     font-weight: lighter;
-    font-size: .9rem;
+    font-size: .7rem;
 }
 
 /********************* CLASS SELECTORS ************************/
@@ -46,16 +49,22 @@ h3 {
 }
 
 .drum {
-    height: 93px;
-    width: 115px;
+    height: 83px;
+    width: 100px;
 }
 
 .drum-key {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Stardos Stencil', cursive;
     color: white;
     font-weight: bolder;
     line-height: .05;
+}
+
+.pressed {
+    background-color: black;
+    color:  #ee4540;
+    transform: scale(1.1);
 }
 
 /********************* ID SELECTORS ************************/
